@@ -1,6 +1,6 @@
 # Assignment 1
 
-**Due Date: Monday 26th April, 11:59 PM PST via Gradescope**
+**Due Date: Friday 26th April, 11:59 PM PST via Gradescope**
 
 ## Acknowledgements
 This document is derived from
