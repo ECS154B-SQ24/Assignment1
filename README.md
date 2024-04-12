@@ -349,7 +349,7 @@ constructing hardware, and branching in Chisel will eventually propagate to
 muxes in the real hardware design. See the
 [Chisel getting started guide](https://github.com/ECS154B-SQ24/Assignment1/blob/main/documentation/chisel-notes/getting-started.md)
 for examples. You may also find the
-[Chisel cheat sheet](https://www.chisel-lang.org/doc/chisel-cheatsheet3.pdf)
+[Chisel cheat sheet](https://github.com/freechipsproject/chisel-cheatsheet/releases/latest/download/chisel_cheatsheet.pdf)
 helpful.
 
 **HINT:** If you really want to optimize speed of the design (i.e., optimizing 
