@@ -41,9 +41,9 @@ code, which is a hardware description language used by a variety of tools to
 describe how an electronic circuit works.
 
 There is a more detailed Chisel overview found under the
-[Chisel notes directory](https://github.com/ECS154B-SQ24/dinocpu-assignment1/blob/main/documentation/chisel-notes/overview.md).
+[Chisel notes directory](https://github.com/ECS154B-SQ24/Assignment1/blob/main/documentation/chisel-notes/overview.md).
 Before diving into this assignment, you are encouraged to go through the
-[Chisel notes](https://github.com/ECS154B-SQ24/dinocpu-assignment1/blob/main/documentation/chisel-notes/overview.md).
+[Chisel notes](https://github.com/ECS154B-SQ24/Assignment1/blob/main/documentation/chisel-notes/overview.md).
 You can find additional help and documentation on
 [Chisel’s website](https://chisel.eecs.berkeley.edu/).
 
@@ -51,7 +51,7 @@ We provide a docker image containing the development environment with JDK,
 Chisel, and sbt installed. Platforms, such as docker and apptainer, support
 the OCI image format should be able to run the docker image. Details on how to
 run the docker image can be found in the
-[dockerfiles folder](https://github.com/ECS154B-SQ24/dinocpu-assignment1/tree/main/dockerfiles).
+[dockerfiles folder](https://github.com/ECS154B-SQ24/Assignment1/tree/main/dockerfiles).
 
 **Note:** There are at least two options to work on the programming assignments
 without having to set up the development environment on your local machine:
@@ -84,7 +84,7 @@ announcement on Piazza and provide ways to update your repo.
 Apptainer is installed on most CSIF machines. So, if you are using one of the
 CSIF machines either locally or remotely, things should just work. However, if
 you run into any problems, post on
-[Piazza](https://piazza.com/class/let902t7oig1lr) or come to office hours.
+[Piazza](https://piazza.com/class/luhhz7vcascf5) or come to office hours.
 
 To run the dinocpu container using apptainer, run the following command in the
 dinocpu folder,
@@ -141,7 +141,7 @@ du -sh ?
 ```
 
 Let us know if you would liek more details on thios method via
-[Piazza](https://piazza.com/class/let902t7oig1lr).
+[Piazza](https://piazza.com/class/luhhz7vcascf5).
 
 ## Important notice
 
@@ -347,7 +347,7 @@ to use a lot of Chisel’s branching statement here (i.e. using
 `when / elsewhen / otherwise`, or `MuxCase` syntax). Remember, you are
 constructing hardware, and branching in Chisel will eventually propagate to 
 muxes in the real hardware design. See the
-[Chisel getting started guide](https://github.com/ECS154B-WQ23/dinocpu-assignment1/blob/main/documentation/chisel-notes/getting-started.md)
+[Chisel getting started guide](https://github.com/ECS154B-SQ24/Assignment1/blob/main/documentation/chisel-notes/getting-started.md)
 for examples. You may also find the
 [Chisel cheat sheet](https://www.chisel-lang.org/doc/chisel-cheatsheet3.pdf)
 helpful.
@@ -624,13 +624,13 @@ is a CPUTestCase that:
 
 More information about `CPUTestCase` can be found in the code
 (`src/main/scala/testing/CPUTesterDriver.scala`, line 262), and in the
-[DINO CPU documentation](https://github.com/ECS154B-WQ23/dinocpu-assignment1/blob/main/documentation//testing.md)
+[DINO CPU documentation](https://github.com/ECS154B-SQ24/Assignment1/blob/main/documentation//testing.md)
 
 You can also use the
-[single stepper](https://github.com/ECS154B-WQ23/dinocpu-assignment1/blob/main/documentation//single-stepping.md)
+[single stepper](https://github.com/ECS154B-SQ24/Assignment1/blob/main/documentation//single-stepping.md)
 to step through the execution one cycle at a time and print information as you 
 go. Details on how to use the single stepper can be found in the
-[documentation](https://github.com/ECS154B-WQ23/dinocpu-assignment1/blob/main/documentation/single-stepping.md).
+[documentation](https://github.com/ECS154B-SQ24/Assignment1/blob/main/documentation/single-stepping.md).
 An example on how to use it is shown below.
 
 First, you can start the single stepper program:
@@ -704,7 +704,7 @@ cycle. Thus, in cycle 0, the value read out of register 6 is still 0.
 On cycle 1, register 6 is written with 1234, as it should be!
 
 More details on how to use the single stepper can be found in the
-[documentation](https://github.com/ECS154B-WQ23/dinocpu-assignment1/blob/main/documentation/single-stepping.md).
+[documentation](https://github.com/ECS154B-SQ24/Assignment1/blob/main/documentation/single-stepping.md).
 You can also write `?` on the command prompt to see the help.
 
 ## Part IV: Implementing the rest of the R-type instructions
@@ -877,7 +877,7 @@ this class.
 
 * Start early! There is a steep learning curve for Chisel, so start early and ask questions on Discord and in discussion.
 * If you need help, come to office hours for the TAs, or post your questions on Piazza.
-* See [common errors](https://github.com/ECS154B-WQ23/dinocpu-assignment1/blob/main/documentation/common-errors.md) for some common errors and their solutions.
+* See [common errors](https://github.com/ECS154B-SQ24/Assignment1/blob/main/documentation/common-errors.md) for some common errors and their solutions.
 
 ## Printf debugging
 
